@@ -6,6 +6,8 @@ public class CreditPaymentService {
         double k = 1 + i;
         double t = Math.pow(k, r);
         double P = amount * (i + i / (t - 1));
-        return P;
+        {
+            return P;
+        }
     }
 }
